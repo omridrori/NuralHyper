@@ -77,4 +77,11 @@ Then you can do grid search using this network to find the best hyper parameters
 
 
 
+##results:
+So one can see the test i did in the folder tests and see it work very well and much faster.
+For example on Adults data from kaggle tried to find the best configuration of hyper parameters from the specified hyper parameter space with grid search and i took almost a day to tell the best configuration which gave 0.8571867321867321 accuracy. 
+![image](https://user-images.githubusercontent.com/59512233/204535470-7e8afe57-5674-44a3-86de-5caeea52738c.png)
+
+But with my algorithm it took only **3 minutes** to tell the best configuration of hyper parameters with only 0.003 less in accuracy from the best hyper parameters found with grid search. 
+![image](https://user-images.githubusercontent.com/59512233/204536155-21f68aa2-7581-4a42-bc70-38f82558e091.png)
 

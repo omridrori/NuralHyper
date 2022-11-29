@@ -48,7 +48,7 @@ Then the network give prediction what will be the accuracy of a decision tree mo
 So if the network is small this can be very fast prediction on how the model will work with this configuration of hyperparameters instead of running actually decision tree on the model.
 ![working correct](https://user-images.githubusercontent.com/59512233/204525609-97a98432-dbe4-4fad-a19c-271868c7ee51.jpg)
 
-##Training
+## Training
 The very basic question to ask is how do we train such network, because this will require very big dataset in which each example is dataset in itself, that is we need to get a lot a lot of datasets which is very hard to get. 
 So the way is solved it is by the observation that the network itself never sees the data itself it always sees the identifiers of the data which as i explained they are how simple models run on the data. But actually the data itslef it never see. 
 So the big observation is that i can  actually randomly sample data from random distributions, namly i have two levels of randomness:

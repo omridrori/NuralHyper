@@ -69,6 +69,8 @@ So the flow goes like that:
 7. in parallel use the data you sampled from step 2 and use real decision tree model on configured with hyper paramters you chose in step 4 get the real accuracy.
 8.compute the loss by comparing the real accuracy from step 7 to the predicted accuracy from step 5 and backprop this loss. 
 
+![training](https://user-images.githubusercontent.com/59512233/204536804-0debd79f-86f1-4760-8676-b7d8848a4fa2.jpg)
+
 
 ## The benefits
 So now after training you get neural network that can predict how decision tree models configured with specific hyper parameters configuration will run on the data instead of really running the model which take much more time. 
